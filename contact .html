@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | The Readers Academy Larkana</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(155, 243, 228);
+            margin: 10px;
+        }
+        h1{
+            color: white;
+            background-color: #555;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+        
+        .contact-form {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        
+        .contact-form .form-group {
+            flex-basis: 45%;
+            margin: 20px;
+        }
+        
+        .contact-form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        .contact-form input[type="text"], .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        .contact-form textarea {
+            height: 150px;
+        }
+        
+        .contact-form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .contact-form input[type="submit"]:hover {
+            background-color: #555;
+        }
+        
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        
+        .contact-info .info-group {
+            flex-basis: 45%;
+            margin: 20px;
+        }
+        
+        .contact-info .info-group h3 {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .contact-info .info-group p {
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="r" ><center > The Reader's Academy Larkana</center></h1>
+    <center> 
+        <img src="./read logoo.jpg " 
+        width="170px"
+        height="170px"
+        style="border-radius: 50%;">
+        </center>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <div class="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Send Message">
+            </div>
+        </div>
+        <div class="contact-info">
+            <div class="info-group">
+                <h3>Address:</h3>
+                <p>The Readers Academy Larkana,
+                  Near New Bus Stand Larkana
+                    Street No. 3, 
+                    Larkana, Sindh, Pakistan.</p>
+            </div>
+            <div class="info-group">
+                <h3>Phone:</h3>
+                <p>+92 3021576235</p>
+            </div>
+            <div class="info-group">
+                <h3>Email:</h3>
+                <p>info@aa4359733@gmail.com</p>
+                <br>
+                <h3>facebook</h3>
+                <img src="./facebook.png" width="30" height="25">
+                
+                <h3>whatsapp</h3>
+                <img src="./whatsapp.jpg" width="30" height="25">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
